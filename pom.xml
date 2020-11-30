@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.thomasgvd</groupId>
-	<artifactId>joe-the-bro</artifactId>
+	<artifactId>timezone-manager</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>joe-the-bro</name>
-	<description>A small web app that helps you remember some facts in a friendly format</description>
+	<name>timezone-manager</name>
+	<description>A small web app that displays the current time in multiple timezones</description>
 
 	<properties>
 		<java.version>15</java.version>
