@@ -1,5 +1,6 @@
 # Time Zone Manager
-A small web app that displays the current time in multiple timezones. Link: https://timezone-manager.herokuapp.com/
+A small web app that displays the current time in multiple timezones. <br/>
+Link: https://timezone-manager.herokuapp.com/
 
 # What I Learned
 * Set up and deploy a simple Spring Boot app from scratch
