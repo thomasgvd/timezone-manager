@@ -1,20 +1,45 @@
 package com.thomasgvd.timezonemanager.models;
 
-public enum MyTimeZone {
-    PARIS("Europe/Paris"),
-    TOKYO("Asia/Tokyo"),
-    LOS_ANGELES("America/Los_Angeles"),
-    NEW_YORK("America/New_York"),
-    LONDON("Europe/London"),
-    SHANGHAI("Asia/Shanghai");
+import java.util.ArrayList;
+import java.util.List;
 
-    private final String value;
+public class MyTimeZone {
 
-    MyTimeZone(String value) {
-        this.value = value;
+    private String timeZone;
+    private String date;
+    private List<String> cities;
+
+    public MyTimeZone() {
+        this.cities = new ArrayList<>();
     }
 
-    public String getValue() {
-        return value;
+    public MyTimeZone(String timeZone, String date, List<String> cities) {
+        this.timeZone = timeZone;
+        this.date = date;
+        this.cities = cities;
+    }
+
+    public String getTimeZone() {
+        return timeZone;
+    }
+
+    public void setTimeZone(String timeZone) {
+        this.timeZone = timeZone;
+    }
+
+    public String getDate() {
+        return date;
+    }
+
+    public void setDate(String date) {
+        this.date = date;
+    }
+
+    public List<String> getCities() {
+        return cities;
+    }
+
+    public void setCities(List<String> cities) {
+        this.cities = cities;
     }
 }
